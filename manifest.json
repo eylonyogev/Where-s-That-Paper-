@@ -1,0 +1,22 @@
+{
+  "name": "Where's That Paper?",
+  "version": "1.0.1",
+  "manifest_version": 2,
+  "description": "Automatically adds viewed academic papers to your favorites.",
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "js/jquery/jquery.js",
+	  "src/bg/bibtexParser.js",
+	  "src/bg/scrapers.js",
+	  "src/bg/background.js"
+    ],
+    "persistent": true
+  },
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+	"bookmarks",
+	"tabs"
+  ]
+}
