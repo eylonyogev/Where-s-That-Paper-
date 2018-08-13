@@ -8,7 +8,9 @@
 
 # About
 
-The extension automatically adds viewed academic papers to your favorites. Currently, it supports the following domains:
+The extension appears online in the Chrome Web Store: https://chrome.google.com/webstore/detail/wheres-that-paper/dkjnkdmoghkbkfkafefhbcnmofdbfdio.
+
+It automatically adds viewed academic papers to your favorites. Currently, it supports the following domains:
 eprint.iacr.org, arxiv.org, eccc.weizmann.ac.il, epubs.siam.org, research.microsoft.com, citeseerx.ist.psu.edu, ac.els-cdn.com, www.sciencedirect.com, download.springer.com, link.springer.com, delivery.acm.org, proceedings.mlr.press.
 
 For example, when visiting the following webpage: https://eprint.iacr.org/2018/733.pdf the paper will be added to the favorites under a folder called "Papers".
