@@ -207,6 +207,14 @@ function mlrScraper(tab, url){
 	});
 }
 
+function apsScraper(tab, url){
+	if (url.indexOf('/pdf/') == -1)
+		return;
+	//console.log('science');
+	var pageUrl =  url.replace('/pdf/', '/export/');
+	bibtexParser(url, pageUrl);
+}
+
 
 //////////////////////////////////////////////////////
 

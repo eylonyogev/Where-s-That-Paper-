@@ -30,6 +30,7 @@ function init(){
 	handlers['link.springer.com'] = springerScraper;
 	handlers['delivery.acm.org'] = acmScraper;
 	handlers['proceedings.mlr.press'] = mlrScraper;
+	handlers['journals.aps.org'] = apsScraper;
 }
 
 
